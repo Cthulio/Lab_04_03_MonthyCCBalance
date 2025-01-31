@@ -5,6 +5,6 @@ public class Main {
         double cardDebt = 5000;
         double interestRate = .17;
         System.out.println("The total due the first month is: "+(cardDebt*(1+interestRate)));
-        System.out.println("The total due the second month is: "+((cardDebt*interestRate)*(1+interestRate)));
+        System.out.println("The total due the second month is: "+(cardDebt+((cardDebt*interestRate)*(1+interestRate))));
     }
 }
